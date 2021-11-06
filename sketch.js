@@ -34,8 +34,8 @@ function setup() {
 
   jointLink = new Link(bridge, jointPoint);
 
-  for (var i = 0; i <= 8; i++) {
-    var x = random(width / 2 - 200, width / 2 + 300);
+  for (var i = 0; i <= 7; i++) {
+    var x = random(width * 0.4, width * 0.6);
     var y = random(-10, 140);
     var stone = new Stone(x, y, 80, 80);
     stones.push(stone);
